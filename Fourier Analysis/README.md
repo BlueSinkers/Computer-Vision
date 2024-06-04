@@ -1,0 +1,12 @@
+# Fourier Analysis
+This set of files corresponds to a bunch of individual projects I worked on. A brief overview on some of them:
+- **discrete_fourier_transform** - this corresponds to a general project which was taken from one of my MATH416 homeworks in which I create an implementation of the DFT on the standard "coins" image. It takes about 20-30 minutes to do, and isn't that challenging to understand. This implementation is in MATLAB.
+- **discrete_fourier_transform_speed** - in my PDF notes I refer often to the idea of the Fast Fourier Transform and how using the Danielson-Lanczos Lemma creates a faster algorithm for the DFT. In this mini-project, I just run the DFT on a set of vectors, MATLAB's implementation of the FFT on a set of vectors, and then create an arbitrarily long vector (length 10,000) to show how the FFT can be *significantly* faster over time. This implementation is in MATLAB.
+- **wavelet_transform** - this is an implementation in Python of the Discrete Wavelet Transform applied with the Daubechies 1 filter. I take a significant portion of code from Steve Brunton and Nathan Kutz's webseries/textbook on Fourier-Driven Analysis which I refer to a lot in my notes. That being said, this is a Python implementation that uses the PyWavelet module. 
+## Things to know about the Projects in this Folder
+- Some of these projects are very similar to my homeworks in MATH416 (math course at UMD). I changed things up so it isn't all the exact same, but please keep that in mind. I am entirely willing to provide help on any of the homeworks if needed (and obviously help within reason) but please do NOT copy any of the code.
+- There are three main extensions and I'll explain them for those who aren't that familiar with this body of work:
+    - *.ipynb* is a Jupyter Notebook, but be warned that for the DFT related projects, the code is in MATLAB so you need to install the MATLAB kernel
+    - *.mlx* is a live MATLAB script file so you can still play around with the code and run it on something like MATHWORKS
+    - *.pdf* is just to publish the work so it looks neat
+- Everything is pretty well documented and these projects were created intentionally for learning purposes so feel free to try and look through things to learn. Although I take some code form other places, close to 70% of it is mine, and I tried to thoroughly document everything.
