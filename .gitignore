@@ -2,7 +2,7 @@
 /data/
 *.jpg
 *.png
-
+*.p
 /venv/
 
 .ipynb_checkpoints/
